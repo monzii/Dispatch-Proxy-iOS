@@ -4,6 +4,7 @@ Dispatch-Proxy iOS scripts
 Created by: https://old.reddit.com/user/syto203
 
 Source: https://old.reddit.com/r/jailbreak/comments/ceq87i/tutorial_bind_multiple_internet_connections_speed/
+
 --------------------------------
 Now that NodeJS has been ported over iOS (thanks mcapollo) we can use dispatch-proxy to bind our Data and WiFi connections into one.
 
@@ -41,6 +42,7 @@ Enjoy.
 To revert back to normal Remove the proxy settings and enter this command in SSH or Terminal
 
 killall node
+
 --------------------
 if your connection didnt improve or slightly slower you might need to specify how the requests are divided between your connections.
 
